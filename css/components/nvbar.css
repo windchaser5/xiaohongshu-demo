@@ -1,0 +1,33 @@
+.nvbar {
+  height: 80px;
+  background-color: white;
+  position: sticky;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 160px;
+
+}
+
+.nvbar .logo {
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.right-logo {
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%
+}
+
+.right-stuff {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  margin-right: 16px;
+  font-weight: bold;
+}
