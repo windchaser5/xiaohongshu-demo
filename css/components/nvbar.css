@@ -1,8 +1,9 @@
 .nvbar {
+  background-image: url("../../images/banner.jpeg");
   height: 80px;
-  background-color: white;
+  background-size: cover;
   position: sticky;
-  top:0;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,13 +12,15 @@
 }
 
 .nvbar .logo {
+  width: 60px;
   height: 60px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .right-logo {
-  height: 40px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
   border-radius: 50%
 }
@@ -28,6 +31,12 @@
 }
 
 a {
+  color:white;
   margin-right: 16px;
   font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: Bold 700 italic;
+  font-family: 'Noto Serif', serif;
+
 }
