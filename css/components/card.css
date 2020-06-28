@@ -9,14 +9,16 @@
 }
 
 .card-image {
-  width: 100%;
+  width: 70%;
   height: 70%;
   object-fit: cover;
+  padding-left: 52px;
+  padding-top: 8px;
 }
 
 .flex-container {
-  font-size: 20px;
-  padding: 0 16px;
+  font-size: 18px;
+  padding: 0 11px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -24,7 +26,7 @@
 }
 
 .info-box {
-  padding: 8px;
+  padding: 5px;
 }
 
 .writer-info {
